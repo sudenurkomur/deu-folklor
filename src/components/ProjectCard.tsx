@@ -12,7 +12,6 @@ export interface ProjectCardProps {
 }
 
 export function ProjectCard({
-  slug,
   title,
   date,
   cover,

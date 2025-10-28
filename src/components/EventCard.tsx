@@ -13,7 +13,6 @@ export interface EventCardProps {
 }
 
 export function EventCard({
-  slug,
   title,
   date,
   location,

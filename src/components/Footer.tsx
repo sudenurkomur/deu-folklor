@@ -1,4 +1,4 @@
-import { Instagram, Youtube, Mail, Music } from "lucide-react"
+import { Instagram, Youtube, Music } from "lucide-react"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
