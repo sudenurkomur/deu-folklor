@@ -10,6 +10,7 @@ export interface YouTubeCardProps {
   title: string
   url: string
   thumbnail?: string
+  key?: string
 }
 
 export function YouTubeCard({ title, url, thumbnail }: YouTubeCardProps) {

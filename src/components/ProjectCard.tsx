@@ -9,6 +9,7 @@ export interface ProjectCardProps {
   cover: string
   summary: string
   tags?: string[]
+  key?: string
 }
 
 export function ProjectCard({

@@ -108,7 +108,7 @@ export function Home() {
       >
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {featuredVideos.map((video, index) => (
-            <YouTubeCard key={index} title={video.title} url={video.url} />
+            <YouTubeCard key={index.toString()} title={video.title} url={video.url} />
           ))}
         </div>
         <div className="mt-8 text-center">

@@ -10,6 +10,7 @@ export interface EventCardProps {
   cover: string
   summary: string
   tags?: string[]
+  key?: string
 }
 
 export function EventCard({
