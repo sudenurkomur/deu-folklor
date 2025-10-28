@@ -20,7 +20,11 @@
 
 ## 🛠️ Kurulum
 
-1. **Projeyi klonlayın** (zaten mevcut)
+1. **Projeyi klonlayın:**
+```bash
+git clone https://github.com/sudenurkomur/deu-folklor.git
+cd deu-folklor
+```
 
 2. **Bağımlılıkları yükleyin:**
 ```bash
@@ -102,7 +106,7 @@ src/
 
 Projenin çalışması için aşağıdaki görselleri ekleyin:
 
-1. **Logo:** `public/images/logo.png` (Önerilen boyut: 200x200px)
+1. **Logo:** `public/images/dfat_logo.png` (Önerilen boyut: 200x200px)
 2. **Slider Görselleri:**
    - `public/images/slider/slide1.jpg`
    - `public/images/slider/slide2.jpg`
@@ -113,7 +117,7 @@ Görselleri temin ettikten sonra dosyaları ilgili klasörlere yerleştirin.
 
 ## ⚙️ Ortam Değişkenleri
 
-`.env` dosyası oluşturun (`.env.example` dosyasını kopyalayarak):
+`.env` dosyası oluşturun:
 
 ```bash
 VITE_GOOGLE_FORM_URL=https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform
@@ -219,8 +223,8 @@ Bu proje eğitim amaçlıdır. Ticari kullanım için gerekli izinleri alınız.
 
 ## 👥 İletişim
 
-Sorularınız için: info@9eylulfolklore.com
+Sorularınız için: difatdeu.1992@gmail.com
 
 ---
 
-**© 2024 9 Eylül Folklore Topluluğu** 🎭
+**© 2024 Dokuz Eylül Üniversitesi Folklor Araştırma Topluluğu** 🎭
