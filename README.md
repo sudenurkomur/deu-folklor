@@ -227,4 +227,4 @@ Sorularınız için: difatdeu.1992@gmail.com
 
 ---
 
-**© 2024 Dokuz Eylül Üniversitesi Folklor Araştırma Topluluğu** 🎭
+**© 2025 Dokuz Eylül Üniversitesi Folklor Araştırma Topluluğu** 🎭

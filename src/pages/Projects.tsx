@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async"
+import { HelmetProvider } from "@dr.pogodin/react-helmet"
 import { ProjectCard } from "@/components/ProjectCard"
 import { Section } from "@/components/Section"
 import { formatPageTitle } from "@/lib/seo"
@@ -58,10 +58,10 @@ const projects = [
 export function Projects() {
   return (
     <>
-      <Helmet>
+      <HelmetProvider>
         <title>{formatPageTitle("Projeler")}</title>
         <meta name="description" content="Dokuz Eylül Folklor Araştırma Topluluğu tarafından gerçekleştirilen projeler ve etkinlikler." />
-      </Helmet>
+      </HelmetProvider>
 
       <Section
         title="Projeler"

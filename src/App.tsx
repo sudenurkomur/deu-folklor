@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { HelmetProvider } from "react-helmet-async"
+import { HelmetProvider } from "@dr.pogodin/react-helmet"
 import { RootLayout } from "@/layout/RootLayout"
 import { Home } from "@/pages/Home"
 import { Projects } from "@/pages/Projects"

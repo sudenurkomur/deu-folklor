@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async"
+import { HelmetProvider } from "@dr.pogodin/react-helmet"
 import { EventCard } from "@/components/EventCard"
 import { Section } from "@/components/Section"
 import { formatPageTitle } from "@/lib/seo"
@@ -56,10 +56,10 @@ const events = [
 export function Events() {
   return (
     <>
-      <Helmet>
+      <HelmetProvider>
         <title>{formatPageTitle("Etkinlikler")}</title>
         <meta name="description" content="Dokuz Eylül Folklor Topluluğu etkinlik takvimi ve duyurular." />
-      </Helmet>
+      </HelmetProvider>
 
       <Section
         title="Etkinlikler"

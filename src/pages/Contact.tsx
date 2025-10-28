@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async"
+import { HelmetProvider } from "@dr.pogodin/react-helmet"
 import { Section } from "@/components/Section"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Mail, MapPin } from "lucide-react"
@@ -9,10 +9,10 @@ export function Contact() {
 
   return (
     <>
-      <Helmet>
+      <HelmetProvider>
         <title>{formatPageTitle("İletişim")}</title>
         <meta name="description" content="9 Eylül Folklore Topluluğu ile iletişime geçin. Sorularınız ve önerileriniz için bizimle iletişime geçebilirsiniz." />
-      </Helmet>
+      </HelmetProvider>
 
       <Section className="container mx-auto px-4 py-16">
         <div className="mx-auto max-w-3xl space-y-12">

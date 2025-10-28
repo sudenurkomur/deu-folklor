@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async"
+import { HelmetProvider } from "@dr.pogodin/react-helmet"
 import { Slider } from "@/components/Slider"
 import { Section } from "@/components/Section"
 import { YouTubeCard } from "@/components/YouTubeCard"
@@ -84,10 +84,10 @@ const Events = [
 export function Home() {
   return (
     <>
-      <Helmet>
+      <HelmetProvider>
         <title>{defaultSEO.title}</title>
         <meta name="description" content={defaultSEO.description} />
-      </Helmet>
+      </HelmetProvider>
 
       {/* Hero Section with Slider */}
       <section className="relative">
